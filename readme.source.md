@@ -71,6 +71,63 @@
   </div>
 </div>
 ```
+```aura width=900 height=150 align=center
+<div style={{ display: 'flex', width: '100%', height: '100%', background: '#0a0c14', borderRadius: '16px', padding: '22px 28px', fontFamily: 'Inter', position: 'relative', overflow: 'hidden' }}>
+  <svg width="900" height="150" viewBox="0 0 900 150" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <radialGradient id="ng" cx="85%" cy="50%" r="60%"><stop offset="0%" stopColor="#22d3ee" stopOpacity="0.18" /><stop offset="100%" stopColor="#0a0c14" stopOpacity="0" /></radialGradient>
+    <rect x="0" y="0" width="900" height="150" fill="url(#ng)"><animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite" /></rect>
+  </svg>
+  <div style={{ display: 'flex', flexDirection: 'column', width: '100%', zIndex: 2 }}>
+    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '14px' }}>
+      <div style={{ display: 'flex', width: '9px', height: '9px', borderRadius: '50%', background: '#34d399', marginRight: '10px' }}><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite" /></div>
+      <div style={{ display: 'flex', fontSize: '13px', fontWeight: 700, letterSpacing: '2px', color: '#34d399', marginRight: '10px' }}>CURRENTLY BUILDING</div>
+      <div style={{ display: 'flex', fontSize: '15px', fontWeight: 700, color: '#f1f5f9', marginRight: '8px' }}>Klark</div>
+      <div style={{ display: 'flex', fontSize: '13px', color: '#64748b' }}>— SaaS B2B all-in-one, 12 modules en micro-frontends</div>
+    </div>
+    <div style={{ display: 'flex', width: '100%', height: '8px', background: '#1e2330', borderRadius: '6px', overflow: 'hidden' }}>
+      <div style={{ display: 'flex', width: '72%', height: '8px', background: 'linear-gradient(90deg,#22d3ee,#a78bfa)', borderRadius: '6px' }}><animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite" /></div>
+    </div>
+    <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '8px' }}>
+      <div style={{ display: 'flex', fontSize: '12px', color: '#94a3b8' }}>React 19 · TypeScript · Express · Module Federation · Stripe · Firebase</div>
+      <div style={{ display: 'flex', fontSize: '12px', fontWeight: 600, color: '#22d3ee' }}>en production</div>
+    </div>
+  </div>
+</div>
+```
+```aura width=900 height=210 align=center
+<div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#0a0c14', borderRadius: '16px', padding: '24px 28px', fontFamily: 'Inter' }}>
+  <div style={{ display: 'flex', alignItems: 'center', marginBottom: '18px' }}>
+    <div style={{ display: 'flex', width: '4px', height: '22px', background: 'linear-gradient(180deg,#34d399,#22d3ee)', borderRadius: '2px', marginRight: '12px' }}></div>
+    <div style={{ display: 'flex', fontSize: '20px', fontWeight: 700, color: '#f1f5f9' }}>How I work</div>
+  </div>
+  <div style={{ display: 'flex' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', width: '264px', background: '#11141d', border: '1px solid #22d3ee33', borderRadius: '12px', padding: '18px 18px', marginRight: '18px', position: 'relative', overflow: 'hidden' }}>
+    <div style={{ display: 'flex', position: 'absolute', top: 0, left: 0, width: '100%', height: '2px', background: '#22d3ee' }}><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" /></div>
+    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
+      <div style={{ display: 'flex', width: '28px', height: '28px', borderRadius: '8px', background: '#22d3ee1a', alignItems: 'center', justifyContent: 'center', marginRight: '10px' }}><div style={{ display: 'flex', width: '10px', height: '10px', borderRadius: '50%', background: '#22d3ee' }}><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite" /></div></div>
+      <div style={{ display: 'flex', fontSize: '15px', fontWeight: 700, color: '#f1f5f9' }}>Architecture</div>
+    </div>
+    <div style={{ display: 'flex', fontSize: '12px', color: '#94a3b8', lineHeight: '1.55' }}>Micro-frontends (Module Federation), Atomic Design, modules métier déployables indépendamment.</div>
+  </div>
+  <div style={{ display: 'flex', flexDirection: 'column', width: '264px', background: '#11141d', border: '1px solid #a78bfa33', borderRadius: '12px', padding: '18px 18px', marginRight: '18px', position: 'relative', overflow: 'hidden' }}>
+    <div style={{ display: 'flex', position: 'absolute', top: 0, left: 0, width: '100%', height: '2px', background: '#a78bfa' }}><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" /></div>
+    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
+      <div style={{ display: 'flex', width: '28px', height: '28px', borderRadius: '8px', background: '#a78bfa1a', alignItems: 'center', justifyContent: 'center', marginRight: '10px' }}><div style={{ display: 'flex', width: '10px', height: '10px', borderRadius: '50%', background: '#a78bfa' }}><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite" /></div></div>
+      <div style={{ display: 'flex', fontSize: '15px', fontWeight: 700, color: '#f1f5f9' }}>AI Integration</div>
+    </div>
+    <div style={{ display: 'flex', fontSize: '12px', color: '#94a3b8', lineHeight: '1.55' }}>Fine-tuning Mistral, GPT-4o, AssemblyAI & ElevenLabs intégrés dans des produits réels.</div>
+  </div>
+  <div style={{ display: 'flex', flexDirection: 'column', width: '264px', background: '#11141d', border: '1px solid #f472b633', borderRadius: '12px', padding: '18px 18px', position: 'relative', overflow: 'hidden' }}>
+    <div style={{ display: 'flex', position: 'absolute', top: 0, left: 0, width: '100%', height: '2px', background: '#f472b6' }}><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" /></div>
+    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
+      <div style={{ display: 'flex', width: '28px', height: '28px', borderRadius: '8px', background: '#f472b61a', alignItems: 'center', justifyContent: 'center', marginRight: '10px' }}><div style={{ display: 'flex', width: '10px', height: '10px', borderRadius: '50%', background: '#f472b6' }}><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite" /></div></div>
+      <div style={{ display: 'flex', fontSize: '15px', fontWeight: 700, color: '#f1f5f9' }}>Shipping</div>
+    </div>
+    <div style={{ display: 'flex', fontSize: '12px', color: '#94a3b8', lineHeight: '1.55' }}>3 SaaS livrés en freelance, paiements Stripe, i18n FR/EN, tests E2E sur les flows critiques.</div>
+  </div>
+  </div>
+</div>
+```
 ```aura width=900 height=440 align=center
 <div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#0a0c14', borderRadius: '16px', padding: '28px 32px', fontFamily: 'Inter' }}>
   <div style={{ display: 'flex', alignItems: 'center', marginBottom: '22px' }}>
@@ -222,23 +279,18 @@
   </div>
 </div>
 ```
-```aura width=900 height=150 align=center
-<div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: 'linear-gradient(90deg,#0a0c14,#11141d)', borderRadius: '16px', overflow: 'hidden', fontFamily: 'Inter' }}>
-  <svg width="900" height="3" viewBox="0 0 900 3" style={{ display: 'block' }}>
-    <defs><linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stopColor="#22d3ee" /><stop offset="50%" stopColor="#a78bfa" /><stop offset="100%" stopColor="#f472b6" /></linearGradient></defs>
-    <rect x="0" y="0" width="900" height="3" fill="url(#sweep)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" /></rect>
-    <rect x="0" y="0" width="120" height="3" fill="#ffffff" opacity="0.6"><animate attributeName="x" values="-120;900" dur="4s" repeatCount="indefinite" /></rect>
-  </svg>
-  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexGrow: 1, padding: '0 36px' }}>
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
-      <div style={{ display: 'flex', fontSize: '19px', fontWeight: 700, color: 'transparent', backgroundImage: 'linear-gradient(90deg,#e2e8f0,#94a3b8)', backgroundClip: 'text', WebkitBackgroundClip: 'text' }}>Let's build something great.</div>
-      <div style={{ display: 'flex', fontSize: '13px', color: '#64748b', marginTop: '5px' }}>HETIC · Mastère CTO & Tech Lead — disponible en CDI</div>
-    </div>
-    <div style={{ display: 'flex' }}>
-      <div style={{ display: 'flex', fontSize: '13px', color: '#a7f3d0', background: '#34d39914', border: '1px solid #34d39944', borderRadius: '10px', padding: '8px 16px', marginLeft: '10px' }}>Email</div>
-      <div style={{ display: 'flex', fontSize: '13px', color: '#a5f3fc', background: '#22d3ee14', border: '1px solid #22d3ee44', borderRadius: '10px', padding: '8px 16px', marginLeft: '10px' }}>in/Hassan-Aidibe</div>
-      <div style={{ display: 'flex', fontSize: '13px', color: '#fbcfe8', background: '#f472b614', border: '1px solid #f472b644', borderRadius: '10px', padding: '8px 16px', marginLeft: '10px' }}>@HascoVice</div>
-    </div>
-  </div>
+```aura width=900 height=90 align=center
+<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(90deg,#0a0c14,#11141d)', borderRadius: '16px', overflow: 'hidden', fontFamily: 'Inter' }}>
+  <div style={{ display: 'flex', fontSize: '19px', fontWeight: 700, color: 'transparent', backgroundImage: 'linear-gradient(90deg,#22d3ee,#a78bfa,#f472b6)', backgroundClip: 'text', WebkitBackgroundClip: 'text' }}>Let's build something great.</div>
+  <div style={{ display: 'flex', fontSize: '13px', color: '#64748b', marginTop: '6px' }}>HETIC · Mastère CTO & Tech Lead — disponible en CDI</div>
 </div>
+```
+```aura width=210 height=46 inline align=center link="mailto:hassan_aidibe@outlook.com"
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', fontFamily: 'Inter', fontSize: '13px', fontWeight: 600, color: '#a7f3d0', background: '#34d39914', border: '1px solid #34d39944', borderRadius: '12px' }}>✉  Email</div>
+```
+```aura width=210 height=46 inline align=center link="https://www.linkedin.com/in/Hassan-Aidibe"
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', fontFamily: 'Inter', fontSize: '13px', fontWeight: 600, color: '#a5f3fc', background: '#22d3ee14', border: '1px solid #22d3ee44', borderRadius: '12px' }}>in  Hassan-Aidibe</div>
+```
+```aura width=210 height=46 inline align=center link="https://github.com/HascoVice"
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', fontFamily: 'Inter', fontSize: '13px', fontWeight: 600, color: '#fbcfe8', background: '#f472b614', border: '1px solid #f472b644', borderRadius: '12px' }}>⌨  @HascoVice</div>
 ```
