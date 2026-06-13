@@ -135,7 +135,7 @@
 </div>
 </div>
 ```
-```aura width=900 height=440 align=center
+```aura width=900 height=290 align=center
 <div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#0a0c14', borderRadius: '16px', padding: '28px 32px', fontFamily: 'Inter' }}>
 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '22px' }}>
 <div style={{ display: 'flex', width: '4px', height: '22px', background: 'linear-gradient(180deg,#22d3ee,#a78bfa)', borderRadius: '2px', marginRight: '12px' }}></div>
